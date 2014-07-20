@@ -8224,60 +8224,23 @@ th.hide-for-touch {
 
 /**************************************** SECTION 4 ***********************/
 /**************************************** FOOTER **************************/
-/* line 10, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%;
-}
-
-/* line 12, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-#container {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -980px;
-}
-/* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-#container #push {
-  height: 980px;
-}
-
-/* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-#footer {
-  clear: both;
-  position: relative;
-  height: 980px;
-}
-
-/* line 193, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 #high_footer {
-  height: 500px;
   background-color: #fafafa;
 }
 
-/* line 199, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 .footer-box {
-  margin: 20px 0 0 0;
   text-align: center;
 }
-/* line 207, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 .footer-box p {
   text-align: center;
 }
-/* line 211, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .footer-box img {
-  max-width: 100px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 0px;
-}
-
-/* line 220, ../scss/app.scss */
-#lower-text {
-  border-top: 2px solid #3b3b3b;
-  padding-top: 10px;
-  height: 300px;
-  background-image: -webkit-linear-gradient(38deg, #faefd1, #faefd1 50%, #f8e9c0 50%, #f5e1a8);
 }
 
 /*

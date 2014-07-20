@@ -184,21 +184,14 @@
 
 /**************************************** FOOTER **************************/
 
-@include sticky-footer(980px, "#container", "#push", "#footer");
-
-#footer {
-  //background-color:$footer-color-three;
-}
 
 #high_footer {
-  height:500px;
   background-color:$topbar-bg-color;
 
 }
 
 .footer-box {
 
-      margin:20px 0 0 0;
       text-align:center;
    a {
      //padding:10px;
@@ -209,21 +202,12 @@
    }
 
    img{
-     //width:100%;
-     max-width:100px;
+     //max-width:100px;
      display:block;
      margin: 0 auto;
-     margin-bottom:0px;
    }
  }
 
-#lower-text {
-  border-top:2px solid #3b3b3b;
-  padding-top:10px;
-  height:300px;
-  background-image:
-  -webkit-linear-gradient(38deg, $success-color, $success-color 50%, scale-color($success-color, $lightness: -4%) 50%, scale-color($success-color, $lightness: -10%));
-}
 
 
 /*
