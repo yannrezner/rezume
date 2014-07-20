@@ -1,0 +1,1 @@
+$(document).foundation("topbar",{scrolltop:!1}),$("#fullpage").fullpage({anchors:["Hi","PieChart","WhyMe","Footer"],slidesColor:["#FFF","rgb(230, 178, 159)","rgba(137, 157, 164, 1.0)","rgb(137, 157, 164)"],navigation:!0,navigationPosition:"right",navigationTooltips:["","","",""],menu:"#menu"}),$("li").click(function(){$("li").removeClass("active"),$(this).toggleClass("active")});

@@ -1,0 +1,32 @@
+// $h1-font-size: rem-calc(102);
+// $h2-font-size: rem-calc(42);
+// // $h3-font-size: rem-calc(27);
+// // $h4-font-size: rem-calc(23);
+// // $h5-font-size: rem-calc(18);
+// // $h6-font-size: 1rem;
+// $header-line-height: 1.0;
+   $body-font-family: 'Raleway', Helvetica, Arial, sans-serif;
+
+// $paragraph-font-family: 'Raleway', Helvetica, Arial, sans-serif;
+// $paragraph-font-size: 1.6rem;
+// $paragraph-line-height: 1.2;
+
+
+@mixin lobster {
+  font-family: 'Lobster', cursive !important;
+}
+
+h1, h2 {
+  @include lobster;
+}
+
+#hi_text {
+  h1, h2 {
+    text-align:right;
+  }
+
+}
+
+p {
+  text-align:justify;
+}

@@ -1,0 +1,32 @@
+   $primary-color: rgba(201, 51, 18, 1.0);
+   $success-color: rgba(250, 239, 209, 1.0);
+   $third-color:#DC863B;
+   $forth-color:rgb(137, 157, 164);
+   $footer-color-one:#28251C;
+   $footer-color-two:#615E59;
+   $footer-color-three:rgba(194, 194, 194, 1.0);
+
+
+// Background color for the top bar
+   $topbar-bg-color: #fafafa;
+   $topbar-bg: $topbar-bg-color;
+
+// Height and margin
+   $topbar-height: 45px;
+// $topbar-margin-bottom: 0;
+// $topbar-link-bg-active: $primary-color;
+   $topbar-link-color: #666;
+   $topbar-dropdown-link-color: #666;
+   $topbar-dropdown-bg: rgba(250, 239, 209, 1.0);
+   $topbar-dropdown-link-bg: rgba(250, 239, 209, 1.0);
+   $topbar-dropdown-toggle-color: $primary-color;
+
+
+   $topbar-link-bg-active-hover: scale-color($third-color, $lightness: -14%);
+
+   $topbar-link-bg-hover: rgba(250, 239, 209, 1.0);
+   $topbar-link-bg-active: $third-color;
+   $topbar-menu-link-color: #666;
+   $topbar-menu-icon-color: #666;
+   $topbar-link-color-hover: #333;
+   $topbar-menu-link-weight: normal;
