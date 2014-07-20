@@ -185,22 +185,20 @@
 /**************************************** FOOTER **************************/
 
 @include sticky-footer(980px, "#container", "#push", "#footer");
-@include sticky-footer(530px, "#container2", "#push2", "#lower-footer");
 
 #footer {
-  background-color:$topbar-bg-color;
+  background-color:#2b2b2b;
 }
 
-#socials {
-  margin-top:20px;
-  margin-bottom:10px;
-}
+#high_footer {
+  height:350px;
+  background-color:$third-color;
 
+}
 
 .footer-box {
-  //  max-width:100px;
-  //  border-radius:2px;
-      margin:10px 0 10px 0;
+
+      margin:20px 0 0 0;
       text-align:center;
    a {
      //padding:10px;
@@ -211,27 +209,17 @@
    }
 
    img{
-     width:150px;
+     //width:100%;
+     max-width:100px;
      display:block;
      margin: 0 auto;
+     margin-bottom:0px;
    }
  }
 
-#lower-footer {
-  width:100%;
-  //height:600px;
-  position:relative;
-  //position:absolute;
-  //bottom:0;
-  background-color:$forth-color;
-  h1 {
-  }
-}
-
 #lower-text {
-  padding-top:60px;
-  margin-left:20px;
-  h3{
+  padding-top:20px;
+  h2{
     color:$topbar-bg-color;
     text-transform:uppercase;
     font-size:42px;

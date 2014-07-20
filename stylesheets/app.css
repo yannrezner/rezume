@@ -8249,72 +8249,40 @@ html, body {
   height: 980px;
 }
 
-/* line 10, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%;
-}
-
-/* line 12, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-#container2 {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -530px;
-}
-/* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-#container2 #push2 {
-  height: 530px;
-}
-
-/* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
-#lower-footer {
-  clear: both;
-  position: relative;
-  height: 530px;
-}
-
-/* line 190, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 #footer {
-  background-color: #fafafa;
+  background-color: #2b2b2b;
 }
 
-/* line 194, ../scss/app.scss */
-#socials {
-  margin-top: 20px;
-  margin-bottom: 10px;
+/* line 193, ../scss/app.scss */
+#high_footer {
+  height: 350px;
+  background-color: #dc863b;
 }
 
-/* line 200, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 .footer-box {
-  margin: 10px 0 10px 0;
+  margin: 20px 0 0 0;
   text-align: center;
 }
-/* line 209, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 .footer-box p {
   text-align: center;
 }
-/* line 213, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 .footer-box img {
-  width: 150px;
+  max-width: 100px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 0px;
 }
 
 /* line 220, ../scss/app.scss */
-#lower-footer {
-  width: 100%;
-  position: relative;
-  background-color: #899da4;
-}
-
-/* line 231, ../scss/app.scss */
 #lower-text {
-  padding-top: 60px;
-  margin-left: 20px;
+  padding-top: 20px;
 }
-/* line 234, ../scss/app.scss */
-#lower-text h3 {
+/* line 222, ../scss/app.scss */
+#lower-text h2 {
   color: #fafafa;
   text-transform: uppercase;
   font-size: 42px;
