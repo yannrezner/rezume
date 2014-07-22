@@ -8224,20 +8224,15 @@ th.hide-for-touch {
 
 /**************************************** SECTION 4 ***********************/
 /**************************************** FOOTER **************************/
-/* line 188, ../scss/app.scss */
-#high_footer {
-  background-color: #fafafa;
-}
-
-/* line 193, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .footer-box {
   text-align: center;
 }
-/* line 200, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .footer-box p {
   text-align: center;
 }
-/* line 204, ../scss/app.scss */
+/* line 202, ../scss/app.scss */
 .footer-box img {
   display: block;
   margin: 0 auto;
