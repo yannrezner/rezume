@@ -4405,6 +4405,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/me_small.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29097,
+		"inputAbbreviatedPath": "\/img\/me_small.jpeg",
+		"outputAbbreviatedPath": "\/img\/me_small.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/navy.png": {
 		"fileType": 32768,
 		"ignore": 0,

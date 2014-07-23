@@ -8224,18 +8224,42 @@ th.hide-for-touch {
 
 /**************************************** SECTION 4 ***********************/
 /**************************************** FOOTER **************************/
-/* line 191, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 .footer-box {
   text-align: center;
 }
-/* line 198, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 .footer-box p {
   text-align: center;
 }
-/* line 202, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .footer-box img {
   display: block;
   margin: 0 auto;
+  padding-bottom: 20px;
+  width: 100px;
+}
+
+/* line 214, ../scss/app.scss */
+.th-logo {
+  width: 155px;
+  margin: -.75em 0 .95em -.50em;
+}
+
+/* line 219, ../scss/app.scss */
+.circle {
+  border-radius: 50%;
+  width: 180px;
+}
+
+/* line 226, ../scss/app.scss */
+.teacher-desc strong {
+  display: block;
+}
+
+/* line 229, ../scss/app.scss */
+hr {
+  margin-bottom: 46px;
 }
 
 /*

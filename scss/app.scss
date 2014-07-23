@@ -186,11 +186,13 @@
 
 
 #high_footer {
+
+
 }
 
 .footer-box {
-
       text-align:center;
+
    a {
      //padding:10px;
 
@@ -203,8 +205,30 @@
      //max-width:100px;
      display:block;
      margin: 0 auto;
+     padding-bottom:20px;
+     width:100px;
+
    }
  }
+
+.th-logo {
+	width: 155px;
+	margin: -.75em 0 .95em -.50em;
+}
+
+.circle {
+	border-radius: 50%;
+  width: 180px;
+}
+.th-copy {
+	//padding-top: 35px;
+}
+.teacher-desc strong {
+	display: block;
+}
+hr {
+	margin-bottom: 46px;
+}
 
 
 
