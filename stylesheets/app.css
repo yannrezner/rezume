@@ -15,19 +15,20 @@ p {
 
 @media all and (max-width: 640px) {
   /* line 4, ../scss/_media_queries.scss */
-  #fullPage-nav {
-    display: none;
-  }
-
-  /* line 5, ../scss/_media_queries.scss */
   #yann {
     display: none;
   }
 
-  /* line 6, ../scss/_media_queries.scss */
+  /* line 5, ../scss/_media_queries.scss */
   #hi_text {
     width: 100%;
     padding: 0 5% 5% 5%;
+  }
+}
+@media all and (max-width: 1080px) {
+  /* line 16, ../scss/_media_queries.scss */
+  #fullPage-nav {
+    display: none;
   }
 }
 /* line 329, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -6537,7 +6538,7 @@ blockquote p {
 }
 /* line 50, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  box-shadow: 0 0 6px 1px rgba(201, 51, 18, 0.5);
+  box-shadow: 0 0 6px 1px rgba(220, 134, 59, 0.5);
 }
 /* line 65, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -8224,15 +8225,20 @@ th.hide-for-touch {
 
 /**************************************** SECTION 4 ***********************/
 /**************************************** FOOTER **************************/
-/* line 193, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
+#high_footer {
+  margin-bottom: 50px;
+}
+
+/* line 194, ../scss/app.scss */
 .footer-box {
   text-align: center;
 }
-/* line 200, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 .footer-box p {
   text-align: center;
 }
-/* line 204, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .footer-box img {
   display: block;
   margin: 0 auto;
@@ -8240,24 +8246,24 @@ th.hide-for-touch {
   width: 100px;
 }
 
-/* line 214, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 .th-logo {
   width: 155px;
   margin: -.75em 0 .95em -.50em;
 }
 
-/* line 219, ../scss/app.scss */
+/* line 220, ../scss/app.scss */
 .circle {
   border-radius: 50%;
   width: 180px;
 }
 
-/* line 226, ../scss/app.scss */
+/* line 227, ../scss/app.scss */
 .teacher-desc strong {
   display: block;
 }
 
-/* line 229, ../scss/app.scss */
+/* line 230, ../scss/app.scss */
 hr {
   margin-bottom: 46px;
 }

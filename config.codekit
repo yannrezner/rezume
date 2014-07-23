@@ -4482,13 +4482,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/y.png": {
+	"\/img\/Y.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 493,
-		"inputAbbreviatedPath": "\/img\/y.png",
-		"outputAbbreviatedPath": "\/img\/y.png",
+		"inputAbbreviatedPath": "\/img\/Y.png",
+		"outputAbbreviatedPath": "\/img\/Y.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
