@@ -6,7 +6,7 @@ $(document).foundation('topbar', {scrolltop: false});
 
 $('#fullpage').fullpage({
       anchors: ['Hi', 'PieChart', 'WhyMe', 'Footer'],
-      slidesColor: ['#FFF', 'rgb(230, 178, 159)', 'rgb(137, 157, 164)', '#fcfcfc'],
+      slidesColor: ['#FFF', 'rgb(230, 178, 159)', , '#fcfcfc'],
       navigation: true,
       navigationPosition: 'right',
       navigationTooltips: ['', '', '', ''],
