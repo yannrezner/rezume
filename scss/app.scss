@@ -80,16 +80,27 @@
 
 /*** SECTION ***/
 
-.section h1,p{
-		text-align:center;
+#bubble {
+    text-align:center;
+    margin-top:-50px;
+    padding:0 20% 0 20%;
+
+    h4{
+      color:$topbar-bg-color;
+      margin-top:-30px;
+    }
 }
 
-.controlArrow.prev {
-		left: 50px;
+.fullPage-slidesNav ul{
+
+    margin-top:-80px;
+
 }
-.controlArrow.next{
-		right: 50px;
+
+.controlArrow {
+		display:none;
 }
+
 
 #section0 {
   background:

@@ -8112,21 +8112,28 @@ th.hide-for-touch {
 
 /*** SECTION ***/
 /* line 83, ../scss/app.scss */
-.section h1, p {
+#bubble {
   text-align: center;
+  margin-top: -50px;
+  padding: 0 20% 0 20%;
 }
-
-/* line 87, ../scss/app.scss */
-.controlArrow.prev {
-  left: 50px;
-}
-
-/* line 90, ../scss/app.scss */
-.controlArrow.next {
-  right: 50px;
+/* line 88, ../scss/app.scss */
+#bubble h4 {
+  color: #fafafa;
+  margin-top: -30px;
 }
 
 /* line 94, ../scss/app.scss */
+.fullPage-slidesNav ul {
+  margin-top: -80px;
+}
+
+/* line 100, ../scss/app.scss */
+.controlArrow {
+  display: none;
+}
+
+/* line 105, ../scss/app.scss */
 #section0 {
   background: url(../img/blurred.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8135,7 +8142,7 @@ th.hide-for-touch {
   background-size: cover;
 }
 
-/* line 108, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 #yann {
   min-width: 50%;
   position: absolute;
@@ -8144,12 +8151,12 @@ th.hide-for-touch {
 }
 
 /*** SECTION 1 ***/
-/* line 118, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 #chart-text {
   margin-bottom: 50px;
 }
 
-/* line 122, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 #not {
   position: relative;
   margin: 0 auto;
@@ -8173,62 +8180,62 @@ th.hide-for-touch {
 }
 
 @-ms-keyframes spin {
-  /* line 146, ../scss/app.scss */
+  /* line 157, ../scss/app.scss */
   from {
     -ms-transform: rotate(0deg);
   }
 
-  /* line 147, ../scss/app.scss */
+  /* line 158, ../scss/app.scss */
   to {
     -ms-transform: rotate(360deg);
   }
 }
 @-moz-keyframes spin {
-  /* line 150, ../scss/app.scss */
+  /* line 161, ../scss/app.scss */
   from {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 151, ../scss/app.scss */
+  /* line 162, ../scss/app.scss */
   to {
     -moz-transform: rotate(360deg);
   }
 }
 @-webkit-keyframes spin {
-  /* line 154, ../scss/app.scss */
+  /* line 165, ../scss/app.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 155, ../scss/app.scss */
+  /* line 166, ../scss/app.scss */
   to {
     -webkit-transform: rotate(360deg);
   }
 }
 @keyframes spin {
-  /* line 158, ../scss/app.scss */
+  /* line 169, ../scss/app.scss */
   from {
     transform: rotate(0deg);
   }
 
-  /* line 161, ../scss/app.scss */
+  /* line 172, ../scss/app.scss */
   to {
     transform: rotate(360deg);
   }
 }
-/* line 167, ../scss/app.scss */
+/* line 178, ../scss/app.scss */
 .legend-labels {
   list-style: none;
   margin: 0;
 }
-/* line 171, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .legend-labels li {
   list-style: none;
   display: inline;
   padding: 0;
   font-size: 18px;
 }
-/* line 177, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 .legend-labels li span {
   display: inline-block;
   height: 14px;
@@ -8239,7 +8246,7 @@ th.hide-for-touch {
 }
 
 /**************************************** SECTION 2 ***********************/
-/* line 194, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 #section2 {
   background: url(../img/blurred2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8248,7 +8255,7 @@ th.hide-for-touch {
   background-size: cover;
 }
 
-/* line 204, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 #bubble {
   background: url(../img/bubble_two.svg) no-repeat center center;
   width: 100%;
@@ -8256,20 +8263,20 @@ th.hide-for-touch {
 }
 
 /**************************************** FOOTER **************************/
-/* line 217, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
 #high_footer {
   margin-bottom: 50px;
 }
 
-/* line 222, ../scss/app.scss */
+/* line 233, ../scss/app.scss */
 .footer-box {
   text-align: center;
 }
-/* line 229, ../scss/app.scss */
+/* line 240, ../scss/app.scss */
 .footer-box p {
   text-align: center;
 }
-/* line 233, ../scss/app.scss */
+/* line 244, ../scss/app.scss */
 .footer-box img {
   display: block;
   margin: 0 auto;
@@ -8277,24 +8284,24 @@ th.hide-for-touch {
   width: 100px;
 }
 
-/* line 243, ../scss/app.scss */
+/* line 254, ../scss/app.scss */
 .th-logo {
   width: 155px;
   margin: -.75em 0 .95em -.50em;
 }
 
-/* line 248, ../scss/app.scss */
+/* line 259, ../scss/app.scss */
 .circle {
   border-radius: 50%;
   width: 180px;
 }
 
-/* line 255, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 .teacher-desc strong {
   display: block;
 }
 
-/* line 258, ../scss/app.scss */
+/* line 269, ../scss/app.scss */
 hr {
   margin-bottom: 46px;
 }

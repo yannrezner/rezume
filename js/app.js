@@ -10,7 +10,8 @@ $('#fullpage').fullpage({
       navigation: true,
       navigationPosition: 'right',
       navigationTooltips: ['', '', '', ''],
-      menu: '#menu'
+      menu: '#menu',
+      slidesNavigation: true
 });
 
 // toggle active class
@@ -22,7 +23,11 @@ $("li").click(function() {
 });
 
 
-//FOOTER
+// fullpage slider bottom nav
+
+// $("#section2").find(".fullPage-slidesNav")
+
+$(".fullPage-slidesNav").appendTo("#bubble");
 
 
 
