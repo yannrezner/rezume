@@ -80,6 +80,17 @@
 
 /*** SECTION ***/
 
+.section h1,p{
+		text-align:center;
+}
+
+.controlArrow.prev {
+		left: 50px;
+}
+.controlArrow.next{
+		right: 50px;
+}
+
 #section0 {
   background:
 
