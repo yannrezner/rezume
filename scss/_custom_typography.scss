@@ -1,7 +1,7 @@
 // $h1-font-size: rem-calc(102);
 // $h2-font-size: rem-calc(42);
-// // $h3-font-size: rem-calc(27);
-// // $h4-font-size: rem-calc(23);
+// $h3-font-size: rem-calc(27);
+// $h4-font-size: rem-calc(23);
 // // $h5-font-size: rem-calc(18);
 // // $h6-font-size: 1rem;
 // $header-line-height: 1.0;
@@ -30,3 +30,9 @@ h1, h2 {
 p {
   text-align:justify;
 }
+
+//BLOCKQUOTE
+
+$blockquote-border: 0px;
+//$blockquote-cite-font-color: scale-color($header-font-color, $lightness: 23%);
+$blockquote-font-color: $topbar-bg-color;

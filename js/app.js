@@ -11,7 +11,12 @@ $('#fullpage').fullpage({
       navigationPosition: 'right',
       navigationTooltips: ['', '', '', ''],
       menu: '#menu',
-      slidesNavigation: true
+      slidesNavigation: true,
+      afterRender: function () {
+            setInterval(function () {
+                $.fn.fullpage.moveSlideRight();
+            }, 3500);
+        }
 });
 
 // toggle active class
